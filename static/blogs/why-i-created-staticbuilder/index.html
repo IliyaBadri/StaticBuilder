@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#FFFFFF">
+  <meta name="description" content="In this post, I’ll walk you through my journey and thought process behind creating StaticBuilder, a tool designed to automate the generation of static webpages...">
+
+  <meta property="og:title" content="Why I created my own webpage builder, StaticBuilder? Automating the Process with Python - Iliya Badri">
+  <meta property="og:description" content="In this post, I’ll walk you through my journey and thought process behind creating StaticBuilder, a tool designed to automate the generation of static webpages...">
+  <meta property="og:image" content="https://iliyabadri.ir/images/favicon.png">
+  <meta property="og:url" content="https://iliyabadri.ir/blogs/why-i-created-staticbuilder">
+  <meta property="og:type" content="article">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Why I created my own webpage builder, StaticBuilder? Automating the Process with Python - Iliya Badri">
+  <meta name="twitter:description" content="In this post, I’ll walk you through my journey and thought process behind creating StaticBuilder, a tool designed to automate the generation of static webpages...">
+  <meta name="twitter:image" content="https://iliyabadri.ir/images/favicon.png">
+
+  <link rel="shortcut icon" href="/images/favicon.png" type="image/png">
+  <link rel="manifest" href="/json/manifest.json">
+  <link href="/css/tailwind.css" rel="stylesheet">
+  <title>Why I created my own webpage builder, StaticBuilder? Automating the Process with Python - Iliya Badri</title>
+</head>
+<body class="bg-white text-gray-800">
+  <nav class="w-full fixed top-0 left-0 bg-white shadow-md p-4 flex justify-between items-center mx-auto">
+    <button onclick="window.location.href='/'" class="text-xl font-semibold">Iliya Badri</button>
+    <div class="space-x-4">
+      <button onclick="window.location.href='/about'" class="px-4 py-2 bg-gray-200 rounded-lg hover:bg-gray-300">About me</button>
+      <button onclick="window.location.href='/blogs'" class="px-4 py-2 bg-gray-200 rounded-lg hover:bg-gray-300">Blogs</button>
+    </div>
+  </nav>
+
+  <div class="max-w-3xl mx-auto p-8 pt-24 mt-20">
+    <article class="bg-white p-6 rounded-xl shadow-xl border-2 border-gray-200">
+      <h1 class="text-3xl font-bold text-gray-800">Why I created my own webpage builder, StaticBuilder? Automating the Process with Python</h1>
+      <p class="text-gray-500 text-sm mt-2 mb-3">March 18, 2025</p>
+      <dev id="markdown" class="text-gray-700 prose max-w-none">
+<p>As developers, we often find ourselves juggling between multiple tasks, from writing code to maintaining websites, and even creating and maintaining personal portfolios or blogs. One of the key aspects of managing a portfolio or blog is ensuring that it looks sleek, and that it does not cost an unreasonable amount of money to maintain. That's exactly why I created <a href="https://github.com/IliyaBadri/StaticBuilder"><strong>StaticBuilder</strong></a>—a Python-powered tool designed to generate static websites for my GitHub Pages webpage. After all, who doesn't love a free personal webpage and blog? (Thanks to GitHub's generous features)</p>
+<h3>What is StaticBuilder?</h3>
+<p><strong>StaticBuilder</strong> is a small project I created to streamline the process of turning a collection of JSON and Markdown files into a fully functional static webpage. This tool helped me save time and effort by automatically generating a webpage that’s ready to go live on GitHub Pages.</p>
+<p>Setting it up is simple: just modify the JSON and Markdown files, run the Python script, and you're good to go! And because it’s main target is building fully static pages that are deployable to <strong>GitHub Pages</strong>, it’s a fantastic option for those looking to deploy a free static website quickly and reliably.</p>
+<p>Also, I made the project really modular. This makes it easy for anyone to build their own webpage. For example, if you want to change the text on a specific button, you just modify the corresponding JSON file. Or if you don't like the theme of the webpage, you can open the python file related to it and change the hard-coded HTML template in it. Styling is handled by Tailwind CSS, a utility-first framework that makes it easy to design responsive websites quickly. In general, there are no fancy thing's going on with it. It's all low-level and simple. Unlike the trendy libraries and frameworks that are popular today.</p>
+<h3>The Challenge of Static Websites</h3>
+<p>The web has come a long way, and today’s websites are dynamic, interactive, and packed with features. However, static websites continue to hold significant value, especially for personal blogs, portfolios, and documentation sites. Static websites are simple to deploy, fast to load, and cheap to serve. They're also often easier to maintain compared to dynamic websites, which require constant backend updates.</p>
+<p>Despite these benefits, creating a good-looking static website can be a tedious process. It requires manual HTML, CSS, and sometimes JavaScript. What if we could automate this? This is exactly why I created <strong>StaticBuilder</strong>: to automate the tedious process of building a static site.</p>
+<h3>More Details</h3>
+<p>StaticBuilder simplifies the entire process, transforming a folder of JSON and Markdown files into a fully functional static site.</p>
+<p>Once you've structured your JSON and Markdown files to contain your content and configurations... all you need to do is run a simple Python script—<code>main.py</code>—and voilà! StaticBuilder processes all the data and outputs a sleek, styled static site in your <code>static</code> directory. It even starts a test server, so you can preview your site locally before pushing it live to GitHub Pages. That's some great automation, isn't it?</p>
+<h3>A Word on Open Source and Collaboration</h3>
+<p>StaticBuilder is an open-source project that's available on <a href="https://github.com/IliyaBadri/StaticBuilder">GitHub</a>, meaning anyone can contribute to its growth and improvement. Although it's a personal project but if you find any bugs or have ideas for new features, I encourage you to open issues or submit pull requests. I really appreciate that.</p>
+<h3>Conclusion</h3>
+<p>I personally think building a website shouldn’t be a hassle. I personally believe automating repetitive tasks like this is a game changer, saving time and effort that can be spent elsewhere. And I also believe that extra frameworks are not needed and will only bloat the workflow and final result. </p>
+<p>With <strong>StaticBuilder</strong> I could easily automate the process of creating a static site, Which is just raw HTML, CSS and JavaScript. Also there are no fancy API's; It's just JSON, Markdown, and hard-coded HTML templates inside python files.  leaving me more time to focus on what really matters—your content.</p>
+<p>Feel free to check out the project on <a href="https://github.com/IliyaBadri/StaticBuilder">GitHub</a>.</p>
+      </dev>
+    </article>
+  </div>
+  <footer class="bg-gray-800 text-white text-center py-6 mt-8">
+    <p>&copy; 2025 Iliya Badri. All rights reserved.</p>
+  </footer>
+</body>
+</html>
