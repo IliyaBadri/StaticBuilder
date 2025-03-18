@@ -1,13 +1,5 @@
 import http.server
 import socketserver
-import os
-import sys
-import shutil
-import pathlib
-import json
-import traceback
-import urllib
-import urllib.parse
 
 import sb_webpage
 # Settings
@@ -22,8 +14,9 @@ class Handler(http.server.SimpleHTTPRequestHandler):
 if __name__ == "__main__":
     sb_webpage.create_webpage()
 
-    # with socketserver.TCPServer(("", TEST_SERVER_PORT), Handler) as httpd:
-    #     print(f"Serving test server at: http://localhost:{TEST_SERVER_PORT}")
-    #     httpd.serve_forever()
+
+    with socketserver.TCPServer(("", TEST_SERVER_PORT), Handler) as httpd:
+        print(f"[+] Serving test server at: http://localhost:{TEST_SERVER_PORT}")
+        httpd.serve_forever()
 
     
