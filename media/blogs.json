@@ -1,22 +1,10 @@
 {
     "blogs": [
         {
-            "title": "My Journey as a Software Developer",
-            "description": "In this post, I’ll be sharing my journey from being a beginner programmer to becoming a game developer. It's been a long road, and there’s a lot to learn along the way...",
-            "date": "March 17, 2025",
-            "path": "/blogs/blog1"
-        },
-        {
-            "title": "Game Development Challenges I’ve Faced",
-            "description": "Game development is an exciting field, but it also comes with its unique set of challenges. In this post, I’ll talk about some of the major obstacles I’ve faced...",
-            "date": "March 17, 2025",
-            "path": "/blogs/blog2"
-        },
-        {
-            "title": "Tech I Use in My Projects",
-            "description": "Curious about the tools I use for software programming and game development? In this post, I share the stack that powers most of my projects...",
-            "date": "March 17, 2025",
-            "path": "/blogs/blog3"
+            "title": "Why I created my own webpage builder, StaticBuilder? Automating the Process with Python",
+            "description": "In this post, I’ll walk you through my journey and thought process behind creating StaticBuilder, a tool designed to automate the generation of static webpages...",
+            "date": "March 18, 2025",
+            "path": "/blogs/why-i-created-staticbuilder"
         }
     ]
 }
