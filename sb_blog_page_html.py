@@ -39,7 +39,7 @@ def create_all_blogs_html(manifest_config_data: dict, site_config_data: dict, bl
   <meta property="og:description" content="{blog_data["description"]}">
   <meta property="og:image" content="{urllib.parse.urljoin(f"https://{site_config_data["domain"]}/", "/images/favicon.png")}">
   <meta property="og:url" content="{urllib.parse.urljoin(f"https://{site_config_data["domain"]}/", blog_data["path"])}">
-  <meta property="og:type" content="website">
+  <meta property="og:type" content="article">
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{blog_data["title"]} - {manifest_config_data["short_name"]}">

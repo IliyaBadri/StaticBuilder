@@ -37,7 +37,7 @@ def create_about_html(manifest_config_data: dict, site_config_data: dict, about_
   <meta property="og:description" content="{about_page_config_data["about_description"]}">
   <meta property="og:image" content="{urllib.parse.urljoin(f"https://{site_config_data["domain"]}/", "/images/favicon.png")}">
   <meta property="og:url" content="https://{site_config_data["domain"]}/about">
-  <meta property="og:type" content="website">
+  <meta property="og:type" content="article">
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{about_page_config_data["about_title"]} - {manifest_config_data["short_name"]}">
